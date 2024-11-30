@@ -8,6 +8,7 @@ function M.highlight(palette, opts)
       bg = palette.bg,
     },
     NormalNC = { fg = palette.fg, bg = palette.bg },
+    NormalFloat = { fg = palette.fg, bg = palette.revolver },
     Title = { fg = palette.white, bg = palette.none },
     Cursor = { fg = palette.bg, bg = palette.white },
     CursorIM = { link = "Cursor" },
