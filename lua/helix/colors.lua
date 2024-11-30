@@ -1,7 +1,7 @@
 local colors = {
   none = "NONE",
   bg = "#3b224c",
-  fg = "#5a5977",
+  fg = "#a4a0e8",
 
   --- Colors
 
@@ -28,7 +28,8 @@ local colors = {
   blue = "#61afef",
   diff_plus = "#35bf86",
   diff_minus = "#f22c86",
-  diff_delta = "#6f44f0"
+  diff_delta = "#6f44f0",
+  selection = "#540099"
 }
 
 return colors
